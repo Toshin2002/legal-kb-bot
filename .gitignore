@@ -1,0 +1,54 @@
+# ── Environment & Secrets ─────────────────────────────────────────────────────
+backend/.env
+backend/.env.*
+!backend/.env.example
+
+# ── ChromaDB (rebuilt by ingest.py) ───────────────────────────────────────────
+backend/chroma_db/
+
+# ── Python ────────────────────────────────────────────────────────────────────
+backend/__pycache__/
+backend/**/__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+
+# ── Virtual Environment ───────────────────────────────────────────────────────
+backend/venv/
+
+# ── Node / React ──────────────────────────────────────────────────────────────
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# ── OS Files ──────────────────────────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+desktop.ini
+
+# ── IDE & Editor ──────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+.cursor/
+
+# ── Logs ──────────────────────────────────────────────────────────────────────
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+
+# ── Testing & Coverage ────────────────────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ── Misc ──────────────────────────────────────────────────────────────────────
+*.bak
+*.tmp
+*.temp
