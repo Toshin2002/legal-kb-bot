@@ -271,8 +271,3 @@ Make sure the backend is running on port 8000 before starting the frontend. Chec
 **Corrections not persisting after server restart**
 Make sure you re-ran `ingest.py` after the stable chunk ID fix. If you have an old `chroma_db/` folder, delete it and run `python ingest.py` again.
 
----
-
-## License
-
-MIT License — feel free to use, modify, and distribute.
